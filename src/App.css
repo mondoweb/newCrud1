@@ -1,38 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  width: 100%;
+  background-color: #ced0d4
 }
 
-.App-link {
-  color: #61dafb;
+
+/*  */
+
+.inserimento {
+  display: grid;
+  justify-content: center;
+  width: 98%;
+  margin: 10px auto ;
+ /* border: 1px solid red; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.inserimento > label {
+  margin: 20px 0 0;
+  font-weight: bold;
 }
+
+
+
+.inserimento > input {
+  width: 80vw;
+  padding: 8px 10px;
+  margin: 5px auto 10px;
+}
+
+.inserimento button {
+  margin: 10px auto;
+  padding: 5px 10px;
+  font-weight: bold;
+  width: 25%;
+  cursor: pointer;
+}
+
+
+#buttonBot{
+  margin-bottom: 80px;
+}
+
+
+
+/* card */
+
+.card{
+  width: 90vw;
+  margin: 5px auto 25px;
+  font-size: 2vw;
+  border-top:  1px solid rgb(122, 122, 230);
+}
+
+.card > p {
+  /* font-weight: bold; */
+  font-size: 1.5rem;
+  margin: 5px 0 05px ;
+}
+.card >p > b {
+  margin-left: 10px;
+  text-transform: capitalize;
+}
+
+/*  Update -  Delete  */ 
+.upDelete > input{
+  width: 35vw;
+  padding: 5px 8px;
+  
+}
+
+.upDelete > button {
+  margin:  10px !important;
+  width: 70px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
